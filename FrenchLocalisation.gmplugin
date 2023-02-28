@@ -1,0 +1,24 @@
+{
+  "name": "FrenchLocalisation",
+  "bundle_version": "1.0",
+  "bundle_description": "French IDE localisations",
+  "required": false,
+  "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_French",
+  "plugins": [
+    {
+      "plugin_name": "FrenchLocalisation",
+      "localised_name": "french_localisation",
+      "plugin_version": "1.0",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+            { "French": "french.csv" },
+            {"French": "french_dnd.csv" }
+        ]
+      },
+      "description": "French IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ]
+}
