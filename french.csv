@@ -7,8 +7,8 @@ _LanguageNative,French,Français,,Language name in the native language
 _LanguageCode,fr,fr,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
 _GameMaker2016,GameMaker,GameMaker,,IDE title
 _MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2-Robohelp-french-2.3.1.26.zip,http://zeus.yoyogames.com/GMS2-Robohelp-french-2.3.1.26.zip,,Location of language manual
-_MANUAL_ONLINE_URL,https://manual-fr.yoyogames.com,https://manual-fr.yoyogames.com,,online manual url
-_TUTORIALS_ONLINE_URL,https://www.yoyogames.com/fr/tutorials,https://www.yoyogames.com/fr/tutorials,,Location of Tutorials url
+_MANUAL_ONLINE_URL,https://manual.gamemaker.io/monthly/fr,https://manual.gamemaker.io/monthly/fr,,online manual url
+_TUTORIALS_ONLINE_URL,https://gamemaker.io/fr/tutorials,https://gamemaker.io/fr/tutorials,,Location of Tutorials url
 $win_OpenInExplorer,Open In Explorer,Ouvrir dans l'explorateur,,Windows version of Open In Explorer
 $win_OpenProjectInExplorer,Open Project In Explorer,Ouvrir dans l'explorateur,,Windows version of Open Project In Explorer
 $win_ShowLogFileInExplorer,Open Log In Explorer,Ouvrir dans l'explorateur,,Windows version of Show Log In Explorer
@@ -7081,9 +7081,6 @@ CanvasText_ParaSpacing,Paragraph Spacing,Espacement des paragraphes,,text track 
 RedefineKeys_Record_Keys_Button,Key Search,Recherche clé,,Record keys button
 RedefineKeys_Default_Search,Search,Rechercher,,Redefine Keys search box default text
 RedefineKeys_Default_Key_Search,Press a key to search,Appuyez sur une touche pour rechercher,,Redefine Keys search box default text when searching for key
-Redefine_Keys_WarningKeys_Dialog,This command may not work properly with the {0} key. Are you sure you want to continue?,Cette commande peut ne pas fonctionner correctement avec la touche {0}. Voulez-vous vraiment continuer ?,,Are you sure about remapping the command message text
-Redefine_Keys_ForbiddenKeys_Title,Forbidden Key,Touche interdite,,Forbidden Key Title
-Redefine_Keys_ForbiddenKeys_Dialog,This command cannot be remapped to {0} as the {1} key is forbidden for this command.,Cette commande ne peut pas être remappée sur {0} car la touche {1} est interdite pour cette commande.,,Forbidden keys message text
 Feather_LintMessages_Title,Feather Messages,Messages Feather,,Feather Messages Window Title
 Feather_RefactorDialog_Title,Rename Identifier,Renommer l’identificateur,,Refactor Dialog Title
 Feather_RefactorDialog_Content1,Provide a new name for '{0}':,Fournir un nouveau nom pour « {0} » :,,Content 1
@@ -7271,9 +7268,9 @@ GMStdIfTimeSourceParent_Name,If Parent,Si parent,,GML Visual action name
 GMStdIfTimeSourceParent_Desc,Check if a time source's parent satisfies a condition.,Vérifier si le parent d'une source temporelle remplit une condition.,,GML Visual action description
 GMStdIfTimeSourceParent_Story_1,If the parent of time source ${idx} is ${parent},Si le parent de la source temporelle ${idx} est ${parent},,GML Visual story text
 GMStdIfTimeSourceParent_Story_2,If the parent of time source ${idx} is not ${parent},Si le parent de la source temporelle ${idx} n'est pas ${parent},,GML Visual story text
-RedefineKeys_MoveFlowNext,Move Flow Next,Déplacer flux suivant,,Redefine keys MoveFlowNext string
-RedefineKeys_MoveFlowPrevious,Move Flow Previous,Déplacer flux précédent,,Redefine keys MoveFlowPrevious string
-RedefineKeys_FlowAccept,Flow Accept,Acceptation flux,,Redefine keys FlowAccept string
+RedefineKeys_Move Focus Next,Move Flow Next,Déplacer flux suivant,,Redefine keys MoveFlowNext string
+RedefineKeys_Move Focus Previous,Move Flow Previous,Déplacer flux précédent,,Redefine keys MoveFlowPrevious string
+RedefineKeys_Focus Accept,Flow Accept,Acceptation flux,,Redefine keys FlowAccept string
 RedefineKeys_Undo,Undo,Annuler,,Redefine keys Undo string
 RedefineKeys_Redo,Redo,Rétablir,,Redefine keys Redo string
 RedefineKeys_Rename,Rename,Renommer,,Redefine keys Rename string
@@ -7283,8 +7280,8 @@ RedefineKeys_Zoom Out,Zoom Out,Dézoomer,,Redefine keys Zoom Out string
 RedefineKeys_Quit,Quit,Quitter,,Redefine keys Quit string
 RedefineKeys_Save As,Save As,Enregistrer sous,,Redefine keys Save As string
 RedefineKeys_Export Project,Export Project,Exporter projet,,Redefine keys Export Project string
-RedefineKeys_force_dock_expansion,Force Dock Expansion,Forcer expansion ancrage,,Redefine keys force_dock_expansion string
-RedefineKeys_close_tab,Close Tab,Fermer l'onglet,,Redefine keys close_tab string
+RedefineKeys_Force Dock Expansion,Force Dock Expansion,Forcer expansion ancrage,,Redefine keys force_dock_expansion string
+RedefineKeys_Close Tab,Close Tab,Fermer l'onglet,,Redefine keys close_tab string
 RedefineKeys_CaretLeft,Caret Left,Caret Gauche,,Redefine keys CaretLeft string
 RedefineKeys_CaretRight,Caret Right,Caret Droite,,Redefine keys CaretRight string
 RedefineKeys_CaretUp,Caret Up,Caret Haut,,Redefine keys CaretUp string
@@ -7350,15 +7347,15 @@ RedefineKeys_DecrementTextSize,Decrement Text Size,Diminuer taille du texte,,Red
 RedefineKeys_IncrementTextSize,Increment Text Size,Augmenter taille du texte,,Redefine keys IncrementTextSize string
 RedefineKeys_TextEditorGotoLine,Text Editor Goto Line,Éditeur de texte Ligne Goto,,Redefine keys TextEditorGotoLine string
 RedefineKeys_toggle_canvas_rulers,Toggle Canvas Rulers,Basculer règles de canevas,,Redefine keys toggle_canvas_rulers string
-RedefineKeys_Toggle Grid Snap,Toggle Grid Snap,Basculer accrochage grille,,Redefine keys Toggle Grid Snap string
+RedefineKeys_Toggle Snap to Grid,Toggle Grid Snap,Basculer accrochage grille,,Redefine keys Toggle Grid Snap string
 RedefineKeys_sequence_split_keyframe,Sequence Split Keyframe,Sequence Split Keyframe,,Redefine keys sequence_split_keyframe string
 RedefineKeys_sequence_remove_keyframe,Sequence Remove Keyframe,Sequence Remove Keyframe,,Redefine keys sequence_remove_keyframe string
-RedefineKeys_sequence_add_keyframe,Sequence Add Keyframe,Sequence Add Keyframe,,Redefine keys sequence_add_keyframe string
+RedefineKeys_Add Key Frame,Sequence Add Keyframe,Sequence Add Keyframe,,Redefine keys sequence_add_keyframe string
 RedefineKeys_sequence_toggle_autokey,Sequence Toggle Autokey,Sequence Toggle Autokey,,Redefine keys sequence_toggle_autokey string
 RedefineKeys_sequence_delete_bksp,Sequence Delete Bksp,Sequence Delete Bksp,,Redefine keys sequence_delete_bksp string
 RedefineKeys_Delete,Delete,Supprimer,,Redefine keys Delete string
 RedefineKeys_sequence_toggle_multiselect_origin,Sequence Toggle Multiselect Origin,Sequence Toggle Multiselect Origin,,Redefine keys sequence_toggle_multiselect_origin string
-RedefineKeys_sequence_center_item_origin,Sequence Center Item Origin,Sequence Center Item Origin,,Redefine keys sequence_center_item_origin string
+RedefineKeys_Center Item Origin,Sequence Center Item Origin,Sequence Center Item Origin,,Redefine keys sequence_center_item_origin string
 RedefineKeys_sequence_reset_item_position,Sequence Reset Item Position,Sequence Reset Item Position,,Redefine keys sequence_reset_item_position string
 RedefineKeys_seq_smartguide_toggle_vis,Seq Smartguide Toggle Vis,Seq Smartguide Toggle Vis,,Redefine keys seq_smartguide_toggle_vis string
 RedefineKeys_seq_smartguide_toggle_rulerlock,Seq Smartguide Toggle Rulerlock,Seq Smartguide Toggle Rulerlock,,Redefine keys seq_smartguide_toggle_rulerlock string
@@ -7385,16 +7382,16 @@ RedefineKeys_sequence_trim_key_right,Sequence Trim Key Right,Sequence Trim Key R
 RedefineKeys_sequence_split_key_two_tracks,Sequence Split Key Two Tracks,Sequence Split Key Two Tracks,,Redefine keys sequence_split_key_two_tracks string
 RedefineKeys_sequence_stretch_keys_right,Sequence Stretch Keys Right,Sequence Stretch Keys Right,,Redefine keys sequence_stretch_keys_right string
 RedefineKeys_sequence_stretch_keys_left,Sequence Stretch Keys Left,Sequence Stretch Keys Left,,Redefine keys sequence_stretch_keys_left string
-RedefineKeys_sequence_next_keyframe,Sequence Next Keyframe,Sequence Next Keyframe,,Redefine keys sequence_next_keyframe string
-RedefineKeys_sequence_prev_keyframe,Sequence Prev Keyframe,Sequence Prev Keyframe,,Redefine keys sequence_prev_keyframe string
+RedefineKeys_Go To Next Keyframe,Sequence Next Keyframe,Sequence Next Keyframe,,Redefine keys sequence_next_keyframe string
+RedefineKeys_Go To Previous Keyframe,Sequence Prev Keyframe,Sequence Prev Keyframe,,Redefine keys sequence_prev_keyframe string
 RedefineKeys_sequence_select_next_key,Sequence Select Next Key,Sequence Select Next Key,,Redefine keys sequence_select_next_key string
 RedefineKeys_sequence_select_prev_key,Sequence Select Prev Key,Sequence Select Prev Key,,Redefine keys sequence_select_prev_key string
-RedefineKeys_sequence_goto_start,Sequence Goto Start,Sequence Goto Start,,Redefine keys sequence_goto_start string
-RedefineKeys_sequence_goto_end,Sequence Goto End,Sequence Goto End,,Redefine keys sequence_goto_end string
-RedefineKeys_sequence_goto_start_selection,Sequence Goto Start Selection,Sequence Goto Start Selection,,Redefine keys sequence_goto_start_selection string
-RedefineKeys_sequence_goto_end_selection,Sequence Goto End Selection,Sequence Goto End Selection,,Redefine keys sequence_goto_end_selection string
-RedefineKeys_sequence_expand_tracks_selection,Sequence Expand Tracks Selection,Sequence Expand Tracks Selection,,Redefine keys sequence_expand_tracks_selection string
-RedefineKeys_sequence_expand_tracks_all,Sequence Expand Tracks All,Sequence Expand Tracks All,,Redefine keys sequence_expand_tracks_all string
+RedefineKeys_Go To Start,Sequence Goto Start,Sequence Goto Start,,Redefine keys sequence_goto_start string
+RedefineKeys_Go To End,Sequence Goto End,Sequence Goto End,,Redefine keys sequence_goto_end string
+RedefineKeys_Go To Start of Selection,Sequence Goto Start Selection,Sequence Goto Start Selection,,Redefine keys sequence_goto_start_selection string
+RedefineKeys_Go To End of Selection,Sequence Goto End Selection,Sequence Goto End Selection,,Redefine keys sequence_goto_end_selection string
+RedefineKeys_Expand Selected Tracks,Sequence Expand Tracks Selection,Sequence Expand Tracks Selection,,Redefine keys sequence_expand_tracks_selection string
+RedefineKeys_Expand All Tracks,Sequence Expand Tracks All,Sequence Expand Tracks All,,Redefine keys sequence_expand_tracks_all string
 RedefineKeys_sequence_select_track_above,Sequence Select Track Above,Sequence Select Track Above,,Redefine keys sequence_select_track_above string
 RedefineKeys_sequence_select_track_below,Sequence Select Track Below,Sequence Select Track Below,,Redefine keys sequence_select_track_below string
 RedefineKeys_sequence_select_track_above_additive,Sequence Select Track Above Additive,Sequence Select Track Above Additive,,Redefine keys sequence_select_track_above_additive string
@@ -7403,49 +7400,48 @@ RedefineKeys_sequence_new_clipping_mask,Sequence New Clipping Mask,Sequence New 
 RedefineKeys_sequence_new_group,Sequence New Group,Sequence New Group,,Redefine keys sequence_new_group string
 RedefineKeys_sequence_new_broadcast_message,Sequence New Broadcast Message,Sequence New Broadcast Message,,Redefine keys sequence_new_broadcast_message string
 RedefineKeys_sequence_new_moment,Sequence New Moment,Sequence New Moment,,Redefine keys sequence_new_moment string
-RedefineKeys_sequence_goto_next_event,Sequence Goto Next Event,Sequence Goto Next Event,,Redefine keys sequence_goto_next_event string
-RedefineKeys_sequence_goto_prev_event,Sequence Goto Prev Event,Sequence Goto Prev Event,,Redefine keys sequence_goto_prev_event string
+RedefineKeys_Go To Next Event,Sequence Goto Next Event,Sequence Goto Next Event,,Redefine keys sequence_goto_next_event string
+RedefineKeys_Go To Previous Event,Sequence Goto Prev Event,Sequence Goto Prev Event,,Redefine keys sequence_goto_prev_event string
 RedefineKeys_tool_translate,Tool Translate,Outil Traduire,,Redefine keys tool_translate string
 RedefineKeys_tool_scale,Tool Scale,Outil Échelle,,Redefine keys tool_scale string
 RedefineKeys_tool_rotate,Tool Rotate,Outil Rotation,,Redefine keys tool_rotate string
 RedefineKeys_tool_origin,Tool Origin,Outil Origine,,Redefine keys tool_origin string
 RedefineKeys_Play,Play,Lire,,Redefine keys Play string
 RedefineKeys_Toggle Grid,Toggle Grid,Basculer grille,,Redefine keys Toggle Grid string
-RedefineKeys_GoTo,Go To,Aller à,,Redefine keys GoTo string
-RedefineKeys_OpenWorkspaceOverview,Open Workspace Overview,Ouvrir vue d'ensemble Espace de travail,,Redefine keys OpenWorkspaceOverview string
+RedefineKeys_Open GoTo Menu,Go To,Aller à,,Redefine keys GoTo string
+RedefineKeys_Open Workspace Overview,Open Workspace Overview,Ouvrir vue d'ensemble Espace de travail,,Redefine keys OpenWorkspaceOverview string
 RedefineKeys_Run,Run,Lancer,,Redefine keys Run string
 RedefineKeys_Debug,Debug,Déboguer,,Redefine keys Debug string
 RedefineKeys_Clean,Clean,Nettoyer,,Redefine keys Clean string
-RedefineKeys_Create Executable,Create Executable,Créer exécutable,,Redefine keys Create Executable string
+RedefineKeys_Package,Create Executable,Créer exécutable,,Redefine keys Create Executable string
 RedefineKeys_open_debug_info,Open Debug Info,Ouvrir infos de débogage,,Redefine keys open_debug_info string
 RedefineKeys_run_memory_info,Run Memory Info,Exécuter infos en mémoire,,Redefine keys run_memory_info string
-RedefineKeys_open_search_replace,Open Search Replace,Ouvrir Rechercher Remplacer,,Redefine keys open_search_replace string
+RedefineKeys_Open Search and Replace,Open Search Replace,Ouvrir Rechercher Remplacer,,Redefine keys open_search_replace string
 RedefineKeys_open_search_in_script_find,Open Search In Script Find,Ouvrir Rechercher dans script Trouver,,Redefine keys open_search_in_script_find string
 RedefineKeys_open_search_in_script_replace,Open Search In Script Replace,Ouvrir Rechercher dans script Remplacer,,Redefine keys open_search_in_script_replace string
-RedefineKeys_open_prefs_tree,Open Prefs Tree,Ouvrir l'arbre des préférences,,Redefine keys open_prefs_tree string
-RedefineKeys_set_bookmark_1,Set Bookmark 1,Définir signet 1,,Redefine keys set_bookmark_1 string
-RedefineKeys_set_bookmark_2,Set Bookmark 2,Définir signet 2,,Redefine keys set_bookmark_2 string
-RedefineKeys_set_bookmark_3,Set Bookmark 3,Définir signet 3,,Redefine keys set_bookmark_3 string
-RedefineKeys_set_bookmark_4,Set Bookmark 4,Définir signet 4,,Redefine keys set_bookmark_4 string
-RedefineKeys_set_bookmark_5,Set Bookmark 5,Définir signet 5,,Redefine keys set_bookmark_5 string
-RedefineKeys_set_bookmark_6,Set Bookmark 6,Définir signet 6,,Redefine keys set_bookmark_6 string
-RedefineKeys_set_bookmark_7,Set Bookmark 7,Définir signet 7,,Redefine keys set_bookmark_7 string
-RedefineKeys_set_bookmark_8,Set Bookmark 8,Définir signet 8,,Redefine keys set_bookmark_8 string
-RedefineKeys_set_bookmark_9,Set Bookmark 9,Définir signet 9,,Redefine keys set_bookmark_9 string
-RedefineKeys_set_bookmark_0,Set Bookmark 0,Définir signet 0,,Redefine keys set_bookmark_0 string
-RedefineKeys_get_bookmark_1,Get Bookmark 1,Obtenir signet 1,,Redefine keys get_bookmark_1 string
-RedefineKeys_get_bookmark_2,Get Bookmark 2,Obtenir signet 2,,Redefine keys get_bookmark_2 string
-RedefineKeys_get_bookmark_3,Get Bookmark 3,Obtenir signet 3,,Redefine keys get_bookmark_3 string
-RedefineKeys_get_bookmark_4,Get Bookmark 4,Obtenir signet 4,,Redefine keys get_bookmark_4 string
-RedefineKeys_get_bookmark_5,Get Bookmark 5,Obtenir signet 5,,Redefine keys get_bookmark_5 string
-RedefineKeys_get_bookmark_6,Get Bookmark 6,Obtenir signet 6,,Redefine keys get_bookmark_6 string
-RedefineKeys_get_bookmark_7,Get Bookmark 7,Obtenir signet 7,,Redefine keys get_bookmark_7 string
-RedefineKeys_get_bookmark_8,Get Bookmark 8,Obtenir signet 8,,Redefine keys get_bookmark_8 string
-RedefineKeys_get_bookmark_9,Get Bookmark 9,Obtenir signet 9,,Redefine keys get_bookmark_9 string
-RedefineKeys_get_bookmark_0,Get Bookmark 0,Obtenir signet 0,,Redefine keys get_bookmark_0 string
+RedefineKeys_Set Bookmark 1,Set Bookmark 1,Définir signet 1,,Redefine keys Set Bookmark 1 string
+RedefineKeys_Set Bookmark 2,Set Bookmark 2,Définir signet 2,,Redefine keys Set Bookmark 2 string
+RedefineKeys_Set Bookmark 3,Set Bookmark 3,Définir signet 3,,Redefine keys Set Bookmark 3 string
+RedefineKeys_Set Bookmark 4,Set Bookmark 4,Définir signet 4,,Redefine keys Set Bookmark 4 string
+RedefineKeys_Set Bookmark 5,Set Bookmark 5,Définir signet 5,,Redefine keys Set Bookmark 5 string
+RedefineKeys_Set Bookmark 6,Set Bookmark 6,Définir signet 6,,Redefine keys Set Bookmark 6 string
+RedefineKeys_Set Bookmark 7,Set Bookmark 7,Définir signet 7,,Redefine keys Set Bookmark 7 string
+RedefineKeys_Set Bookmark 8,Set Bookmark 8,Définir signet 8,,Redefine keys Set Bookmark 8 string
+RedefineKeys_Set Bookmark 9,Set Bookmark 9,Définir signet 9,,Redefine keys Set Bookmark 9 string
+RedefineKeys_Set Bookmark 0,Set Bookmark 0,Définir signet 0,,Redefine keys Set Bookmark 0 string
+RedefineKeys_Get Bookmark 1,Get Bookmark 1,Obtenir signet 1,,Redefine keys Get Bookmark 1 string
+RedefineKeys_Get Bookmark 2,Get Bookmark 2,Obtenir signet 2,,Redefine keys Get Bookmark 2 string
+RedefineKeys_Get Bookmark 3,Get Bookmark 3,Obtenir signet 3,,Redefine keys Get Bookmark 3 string
+RedefineKeys_Get Bookmark 4,Get Bookmark 4,Obtenir signet 4,,Redefine keys Get Bookmark 4 string
+RedefineKeys_Get Bookmark 5,Get Bookmark 5,Obtenir signet 5,,Redefine keys Get Bookmark 5 string
+RedefineKeys_Get Bookmark 6,Get Bookmark 6,Obtenir signet 6,,Redefine keys Get Bookmark 6 string
+RedefineKeys_Get Bookmark 7,Get Bookmark 7,Obtenir signet 7,,Redefine keys Get Bookmark 7 string
+RedefineKeys_Get Bookmark 8,Get Bookmark 8,Obtenir signet 8,,Redefine keys Get Bookmark 8 string
+RedefineKeys_Get Bookmark 9,Get Bookmark 9,Obtenir signet 9,,Redefine keys Get Bookmark 9 string
+RedefineKeys_Get Bookmark 0,Get Bookmark 0,Obtenir signet 0,,Redefine keys Get Bookmark 0 string
 RedefineKeys_manage_plugins,Manage Plugins,Gérer les plugins,,Redefine keys manage_plugins string
-RedefineKeys_open_inspector,Open Inspector,Ouvrir l'inspecteur,,Redefine keys open_inspector string
-RedefineKeys_open_asset_browser,Open Asset Browser,Ouvrir le navigateur d'actif,,Redefine keys open_asset_browser string
+RedefineKeys_Open Inspector,Open Inspector,Ouvrir l'inspecteur,,Redefine keys open_inspector string
+RedefineKeys_Open Asset Browser,Open Asset Browser,Ouvrir le navigateur d'actif,,Redefine keys open_asset_browser string
 RedefineKeys_do_nothing_rewrite,Do Nothing Rewrite,Ne rien faire Réécrire,,Redefine keys do_nothing_rewrite string
 RedefineKeys_enumerate_references,Enumerate References,Énumérer les références,,Redefine keys enumerate_references string
 RedefineKeys_find_all_references,Find All References,Trouver toutes les références,,Redefine keys find_all_references string
@@ -7471,10 +7467,10 @@ RedefineKeys_Add Frame,Add Frame,Ajouter un cadre,,Redefine keys Add Frame strin
 RedefineKeys_insert_frame,Insert Frame,Insérer un cadre,,Redefine keys insert_frame string
 RedefineKeys_backspace_delete,Backspace Delete,RetourArr Supprimer,,Redefine keys backspace_delete string
 RedefineKeys_import_files,Import Files,Importer fichiers,,Redefine keys import_files string
-RedefineKeys_move_selection_up,Move Selection Up,Déplacer sélection vers le haut,,Redefine keys move_selection_up string
-RedefineKeys_move_selection_down,Move Selection Down,Déplacer sélection vers le bas,,Redefine keys move_selection_down string
-RedefineKeys_move_selection_left,Move Selection Left,Déplacer sélection vers la gauche,,Redefine keys move_selection_left string
-RedefineKeys_move_selection_right,Move Selection Right,Déplacer sélection vers la droite,,Redefine keys move_selection_right string
+RedefineKeys_Move Selection Up,Move Selection Up,Déplacer sélection vers le haut,,Redefine keys move_selection_up string
+RedefineKeys_Move Selection Down,Move Selection Down,Déplacer sélection vers le bas,,Redefine keys move_selection_down string
+RedefineKeys_Move Selection Left,Move Selection Left,Déplacer sélection vers la gauche,,Redefine keys move_selection_left string
+RedefineKeys_Move Selection Right,Move Selection Right,Déplacer sélection vers la droite,,Redefine keys move_selection_right string
 RedefineKeys_import_from_strip,Import From Strip,Importer depuis strip,,Redefine keys import_from_strip string
 RedefineKeys_increment_brush_size,Increment Brush Size,Augmenter taille du pinceau,,Redefine keys increment_brush_size string
 RedefineKeys_increment_brush_size2,Increment Brush Size2,Augmenter taille du pinceau2,,Redefine keys increment_brush_size2 string
@@ -7487,10 +7483,10 @@ RedefineKeys_Open Layer View,Open Layer View,Ouvrir la vue Calque,,Redefine keys
 RedefineKeys_cut_selection_win,Cut Selection Win,Couper fenêtre Sélection,,Redefine keys cut_selection_win string
 RedefineKeys_copy_selection_win,Copy Selection Win,Copier fenêtre Sélection,,Redefine keys copy_selection_win string
 RedefineKeys_paste_selection_Win,Paste Selection Win,Coller fenêtre Sélection,,Redefine keys paste_selection_Win string
-RedefineKeys_Mirror as Individuals,Mirror As Individuals,Miroir en tant qu'individus,,Redefine keys Mirror as Individuals string
-RedefineKeys_Mirror as Group,Mirror As Group,Miroir en tant que groupe,,Redefine keys Mirror as Group string
-RedefineKeys_Flip as Individuals,Flip As Individuals,Retourner en tant qu'individus,,Redefine keys Flip as Individuals string
-RedefineKeys_Flip as Group,Flip As Group,Retourner en tant que groupe,,Redefine keys Flip as Group string
+RedefineKeys_Mirror As Individuals,Mirror As Individuals,Miroir en tant qu'individus,,Redefine keys Mirror as Individuals string
+RedefineKeys_Mirror As Group,Mirror As Group,Miroir en tant que groupe,,Redefine keys Mirror as Group string
+RedefineKeys_Flip As Individuals,Flip As Individuals,Retourner en tant qu'individus,,Redefine keys Flip as Individuals string
+RedefineKeys_Flip As Group,Flip As Group,Retourner en tant que groupe,,Redefine keys Flip as Group string
 RedefineKeys_toggle_grid,Toggle Grid,Basculer grille,,Redefine keys toggle_grid string
 RedefineKeys_Add Moment,Add Moment,Ajouter moment,,Redefine keys Add Moment string
 RedefineKeys_cut_moments_win,Cut Moments Win,Couper fenêtre Moments,,Redefine keys cut_moments_win string
@@ -7521,7 +7517,7 @@ RedefineKeys_insert_sprite_frame,Insert Sprite Frame,Insérer cadre Sprite,,Rede
 RedefineKeys_copy_frames_win,Copy Frames Win,Copier fenêtre Cadres,,Redefine keys copy_frames_win string
 RedefineKeys_paste_frames_win,Paste Frames Win,Coller fenêtre Cadres,,Redefine keys paste_frames_win string
 RedefineKeys_cut_frames_win,Cut Frames Win,Couper fenêtre Cadres,,Redefine keys cut_frames_win string
-RedefineKeys_Pan To Path,Pan To Path,Panoramique chemin,,Redefine keys Pan To Path string
+RedefineKeys_Pan To,Pan To Path,Panoramique chemin,,Redefine keys Pan To Path string
 RedefineKeys_Reverse Path,Reverse Path,Inverser chemin,,Redefine keys Reverse Path string
 RedefineKeys_Mirror,Mirror,Miroir,,Redefine keys Mirror string
 RedefineKeys_Flip,Flip,Retourner,,Redefine keys Flip string
@@ -7537,10 +7533,6 @@ RedefineKeys_debugger_continue,Debugger Continue,Débogueur Continuer,,Redefine 
 RedefineKeys_debugger_step_into,Debugger Step Into,Débogueur Entrer dans,,Redefine keys debugger_step_into string
 RedefineKeys_debugger_step_over,Debugger Step Over,Débogueur Enjamber,,Redefine keys debugger_step_over string
 RedefineKeys_debugger_step_out,Debugger Step Out,Débogueur Sortir,,Redefine keys debugger_step_out string
-RedefineKeys_ab_arrange_up,Ab Arrange Up,Ab Arrange Up,,Redefine keys ab_arrange_up string
-RedefineKeys_ab_arrange_down,Ab Arrange Down,Ab Arrange Down,,Redefine keys ab_arrange_down string
-RedefineKeys_ab_arrange_top,Ab Arrange Top,Ab Arrange Top,,Redefine keys ab_arrange_top string
-RedefineKeys_ab_arrange_bottom,Ab Arrange Bottom,Ab Arrange Bottom,,Redefine keys ab_arrange_bottom string
 RedefineKeys_ac_delete_bksp,Ac Delete Bksp,Ac Delete Bksp,,Redefine keys ac_delete_bksp string
 RedefineKeys_ace_cancel,Ace Cancel,Ace Cancel,,Redefine keys ace_cancel string
 RedefineKeys_ac_path_display,Ac Path Display,Ac Path Display,,Redefine keys ac_path_display string
@@ -7718,7 +7710,7 @@ RedefineKeys_ObjectEditor_InheritParentEvent,Object Editor Inherit Parent Event,
 RedefineKeys_ObjectEditor_OverrideParentEvent,Object Editor Override Parent Event,Éditeur d'objet Remplacer événement parent,,Redefine keys ObjectEditor_OverrideParentEvent string
 RedefineKeys_SplineEditor_DeletePoints,Spline Editor Delete Points,Editeur de spline Supprimer des points,,Redefine keys SplineEditor_DeletePoints string
 RedefineKeys_PathEditor_ContextMenu_EditPoint,Path Editor Context Menu Edit Point,Éditeur de chemin Menu Contexte Éditer point,,Redefine keys PathEditor_ContextMenu_EditPoint string
-RedefineKeys_Generate Tile Map,Generate Tile Map,Générer la carte des tuiles,,Redefine keys Generate Tile Map string
+RedefineKeys_Generate Tile Map From Image,Generate Tile Map,Générer la carte des tuiles,,Redefine keys Generate Tile Map string
 RedefineKeys_RoomEditor_DeleteLayer,Room Editor Delete Layer,Éditeur de salle Supprimer le calque,,Redefine keys RoomEditor_DeleteLayer string
 RedefineKeys_RoomEditor_AddRootLayer,Room Editor Add Root Layer,Éditeur de salle Ajouter calque racine,,Redefine keys RoomEditor_AddRootLayer string
 RedefineKeys_RoomEditor_AddSubLayer,Room Editor Add Sub Layer,Éditeur de salle Ajouter sous-calque,,Redefine keys RoomEditor_AddSubLayer string
@@ -7765,11 +7757,11 @@ RedefineKeys_resize_image,Resize Image,Redimensionner image,,Redefine keys resiz
 RedefineKeys_play_preview,Play Preview,Lire Prévisualisation,,Redefine keys play_preview string
 RedefineKeys_Jump To End,Jump To End,Sauter à la fin,,Redefine keys Jump To End string
 RedefineKeys_Jump To Start,Jump To Start,Sauter au début,,Redefine keys Jump To Start string
-RedefineKeys_add_new_background_layer,Add New Background Layer,Ajouter nouveau calque de fond,,Redefine keys add_new_background_layer string
-RedefineKeys_add_new_tile_layer,Add New Tile Layer,Ajouter nouveau calque de tuiles,,Redefine keys add_new_tile_layer string
-RedefineKeys_add_new_path_layer,Add New Path Layer,Ajouter nouveau calque de chemin,,Redefine keys add_new_path_layer string
-RedefineKeys_add_new_asset_layer,Add New Asset Layer,Ajouter nouveau calque d'actif,,Redefine keys add_new_asset_layer string
-RedefineKeys_add_new_folder_layer,Add New Folder Layer,Ajouter nouveau calque de dossier,,Redefine keys add_new_folder_layer string
+RedefineKeys_Create Background Layer,Add New Background Layer,Ajouter nouveau calque de fond,,Redefine keys add_new_background_layer string
+RedefineKeys_Create Tile Layer,Add New Tile Layer,Ajouter nouveau calque de tuiles,,Redefine keys add_new_tile_layer string
+RedefineKeys_Create Path Layer,Add New Path Layer,Ajouter nouveau calque de chemin,,Redefine keys add_new_path_layer string
+RedefineKeys_Create Asset Layer,Add New Asset Layer,Ajouter nouveau calque d'actif,,Redefine keys add_new_asset_layer string
+RedefineKeys_Create Layer Folder,Add New Folder Layer,Ajouter nouveau calque de dossier,,Redefine keys add_new_folder_layer string
 RedefineKeys_select_PaintbrushTool,Select Paintbrush Tool,Sélectionner l'outil Pinceau,,Redefine keys select_PaintbrushTool string
 RedefineKeys_select_EraseTool,Select Erase Tool,Sélectionner l'outil Gomme,,Redefine keys select_EraseTool string
 RedefineKeys_select_FillTool,Select Fill Tool,Sélectionner l'outil Remplissage,,Redefine keys select_FillTool string
@@ -7803,11 +7795,11 @@ RedefineKeys_open_variable_definitions,Open Variable Definitions,Ouvrir les déf
 RedefineKeys_add_event,Add Event,Ajouter un événement,,Redefine keys add_event string
 RedefineKeys_select_parent,Select Parent,Sélectionner parent,,Redefine keys select_parent string
 RedefineKeys_edit_parent,Edit Parent,Éditer parent,,Redefine keys edit_parent string
-RedefineKeys_add_child,Add Child,Ajouter un enfant,,Redefine keys add_child string
+RedefineKeys_Add Child,Add Child,Ajouter un enfant,,Redefine keys add_child string
 RedefineKeys_modify_collision_shape,Modify Collision Shape,Modifier la forme de collision,,Redefine keys modify_collision_shape string
 RedefineKeys_physics_toggle_grid,Physics Toggle Grid,Physique Basculer grille,,Redefine keys physics_toggle_grid string
 RedefineKeys_physics_snap_to_grid,Physics Snap To Grid,Basculer Accrocher à la grille,,Redefine keys physics_snap_to_grid string
-RedefineKeys_add_variable,Add Variable,Ajouter une variable,,Redefine keys add_variable string
+RedefineKeys_Add Variable,Add Variable,Ajouter une variable,,Redefine keys add_variable string
 RedefineKeys_add_new_range,Add New Range,Ajouter une nouvelle plage,,Redefine keys add_new_range string
 RedefineKeys_delete_selected_range,Delete Selected Range,Supprimer la plage sélectionnée,,Redefine keys delete_selected_range string
 RedefineKeys_open_options,Open Options,Ouvrir les options,,Redefine keys open_options string
@@ -7829,13 +7821,13 @@ RedefineKeys_autotile_add_transition_set,Autotile Add Transition Set,Carrelage a
 RedefineKeys_autotile_delete_set,Autotile Delete Set,Carrelage automatique Supprimer le lot,,Redefine keys autotile_delete_set string
 RedefineKeys_autotile_show_guide,Autotile Show Guide,Carrelage automatique Afficher le guide,,Redefine keys autotile_show_guide string
 RedefineKeys_add_curve,Add Curve,Ajouter une courbe,,Redefine keys add_curve string
-RedefineKeys_Zoom Fit,Zoom Fit,Ajustement du zoom,,Redefine keys Zoom Fit string
+RedefineKeys_Zoom Centre Fit,Zoom Fit,Ajustement du zoom,,Redefine keys Zoom Fit string
 RedefineKeys_set_range,Set Range,Définir la portée,,Redefine keys set_range string
-RedefineKeys_open_shift_path,Open Shift Path,Ouvrir le chemin de décalage,,Redefine keys open_shift_path string
-RedefineKeys_shift_left,Shift Left,Majuscule Gauche,,Redefine keys shift_left string
-RedefineKeys_shift_right,Shift Right,Majuscule Droite,,Redefine keys shift_right string
-RedefineKeys_shift_up,Shift Up,Majuscule Haut,,Redefine keys shift_up string
-RedefineKeys_shift_down,Shift Down,Majuscule Bas,,Redefine keys shift_down string
+RedefineKeys_Shift Path,Open Shift Path,Ouvrir le chemin de décalage,,Redefine keys open_shift_path string
+RedefineKeys_Shift Path Left,Shift Left,Majuscule Gauche,,Redefine keys shift_left string
+RedefineKeys_Shift Path Right,Shift Right,Majuscule Droite,,Redefine keys shift_right string
+RedefineKeys_Shift Path Up,Shift Up,Majuscule Haut,,Redefine keys shift_up string
+RedefineKeys_Shift Path Down,Shift Down,Majuscule Bas,,Redefine keys shift_down string
 RedefineKeys_load_sound,Load Sound,Charger le son,,Redefine keys load_sound string
 RedefineKeys_mute_sound,Mute Sound,Couper le son,,Redefine keys mute_sound string
 RedefineKeys_play_sound,Play Sound,Jouer le son,,Redefine keys play_sound string
@@ -7846,18 +7838,17 @@ RedefineKeys_mute_all,Mute All,Couper tout,,Redefine keys mute_all string
 RedefineKeys_play_all,Play All,Jouer tout,,Redefine keys play_all string
 RedefineKeys_loop_all,Loop All,Boucler tout,,Redefine keys loop_all string
 RedefineKeys_rewind_all,Rewind All,Rembobiner tout,,Redefine keys rewind_all string
-RedefineKeys_create_asset,Create Asset,Créer un actif,,Redefine keys create_asset string
+RedefineKeys_Create Asset,Create Asset,Créer un actif,,Redefine keys create_asset string
 RedefineKeys_confirm_create_asset,Confirm Create Asset,Confirmer la création d'actif,,Redefine keys confirm_create_asset string
 RedefineKeys_ide_toolbar_help,Ide Toolbar Help,Barre d'outils Ide Aide,,Redefine keys ide_toolbar_help string
 RedefineKeys_ide_toolbar_collapsedocks,Ide Toolbar Collapsedocks,Barre d'outils Ide Collapsedocks,,Redefine keys ide_toolbar_collapsedocks string
 RedefineKeys_RestartGame,Restart Game,Redémarrer le jeu,,Redefine keys RestartGame string
-RedefineKeys_MultiSelect,Multi Select,Sélection multiple,,Redefine keys MultiSelect string
-RedefineKeys_Zoom,Zoom,Zoom,,Redefine keys Zoom string
-RedefineKeys_Pan,Pan,Panoramique,,Redefine keys Pan string
-RedefineKeys_SelectRange,Select Range,Sélectionner la portée,,Redefine keys SelectRange string
-RedefineKeys_PreciseItemPlacement,Precise Item Placement,Placement précis des éléments,,Redefine keys PreciseItemPlacement string
-RedefineKeys_PaintWithResource,Paint With Resource,Peindre avec la ressource,,Redefine keys PaintWithResource string
-RedefineKeys_SelectFromAnyLayer,Select From Any Layer,Sélectionner à partir de n'importe quel calque,,Redefine keys SelectFromAnyLayer string
+RedefineKeys_Select Multiple,Multi Select,Sélection multiple,,Redefine keys MultiSelect string
+RedefineKeys_Pan Area Zoom,Zoom,Zoom,,Redefine keys Zoom string
+RedefineKeys_Pan Area Pan,Pan,Panoramique,,Redefine keys Pan string
+RedefineKeys_Select Range,Select Range,Sélectionner la portée,,Redefine keys SelectRange string
+RedefineKeys_Paint With Resource,Paint With Resource,Peindre avec la ressource,,Redefine keys PaintWithResource string
+RedefineKeys_Select From Any Layer,Select From Any Layer,Sélectionner à partir de n'importe quel calque,,Redefine keys SelectFromAnyLayer string
 RedefineKeys_Arc Move Control Point A,Arc Move Control Point A,Déplacement d'arc Point de contrôle A,,Redefine keys Arc Move Control Point A string
 RedefineKeys_Arc Move Control Point B,Arc Move Control Point B,Déplacement d'arc Point de contrôle B,,Redefine keys Arc Move Control Point B string
 RedefineKeys_Snap Tool Modifier,Snap Tool Modifier,Modificateur de l'outil Accrochage,,Redefine keys Snap Tool Modifier string
@@ -7865,12 +7856,12 @@ RedefineKeys_ColourReplaceWithAlpha,Colour Replace With Alpha,Remplacement de co
 RedefineKeys_Draw Regular Shape,Draw Regular Shape,Dessiner une forme régulière,,Redefine keys Draw Regular Shape string
 RedefineKeys_Draw Centred Shape,Draw Centred Shape,Dessiner une forme centrée,,Redefine keys Draw Centred Shape string
 RedefineKeys_FillToolTileWithBrush,Fill Tool Tile With Brush,Outil Remplissage Carreler avec pinceau,,Redefine keys FillToolTileWithBrush string
-RedefineKeys_AddToSelection,Add To Selection,Ajouter à la sélection,,Redefine keys AddToSelection string
-RedefineKeys_RemoveFromSelection,Remove From Selection,Enlever de la sélection,,Redefine keys RemoveFromSelection string
+RedefineKeys_Add Selection,Add To Selection,Ajouter à la sélection,,Redefine keys AddToSelection string
+RedefineKeys_Remove Selection,Remove From Selection,Enlever de la sélection,,Redefine keys RemoveFromSelection string
 RedefineKeys_OpenColourPanelOnSelect,Open Colour Panel On Select,Ouvrir la palette de couleurs sur sélection,,Redefine keys OpenColourPanelOnSelect string
-RedefineKeys_RotatePath,Rotate Path,Rotation du chemin,,Redefine keys RotatePath string
-RedefineKeys_TranslatePath,Translate Path,Translater le chemin,,Redefine keys TranslatePath string
-RedefineKeys_ScalePath,Scale Path,Mettre à l'échelle le chemin,,Redefine keys ScalePath string
+RedefineKeys_Rotate Path,Rotate Path,Rotation du chemin,,Redefine keys RotatePath string
+RedefineKeys_Translate Path,Translate Path,Translater le chemin,,Redefine keys TranslatePath string
+RedefineKeys_Scale Path,Scale Path,Mettre à l'échelle le chemin,,Redefine keys ScalePath string
 RedefineKeys_DopeSheetPanel_ScrollCommand,Dope Sheet Panel Scroll Command,Dope Sheet Panel Scroll Command,,Redefine keys DopeSheetPanel_ScrollCommand string
 RedefineKeys_feather_open_quickfix_menu,Feather Open Quickfix Menu,Feather Ouvrir le menu Quickfix,,Redefine keys feather_open_quickfix_menu string
 RedefineKeys_TileFlipTool,Tile Flip Tool,Outil Retournement de tuile,,Redefine keys TileFlipTool string
@@ -7885,9 +7876,9 @@ RedefineKeys_TileRotateTool,Tile Rotate Tool,Outil Rotation de tuile,,Redefine k
 RedefineKeys_TileSelectionTool,Tile Selection Tool,Outil Sélection de tuile,,Redefine keys TileSelectionTool string
 RedefineKeys_AutoTileTool,Auto Tile Tool,Outil Carrelage automatique,,Redefine keys AutoTileTool string
 RedefineKeys_PaintBrush,Room Editor Paint Brush,Éditeur de salle Pinceau à peinture,,Redefine keys RoomEditorPaintBrush string
-RedefineKeys_ActivateTileSelectWindow,Activate Tile Select Window,Activer la fenêtre de sélection de tuile,,Redefine keys ActivateTileSelectWindow string
+RedefineKeys_Open Tile Selection Window,Activate Tile Select Window,Activer la fenêtre de sélection de tuile,,Redefine keys ActivateTileSelectWindow string
 RedefineKeys_InvertSelection,Invert Selection,Inverser sélection,,Redefine keys InvertSelection string
-RedefineKeys_ToggleMacroEditingMode,Toggle Macro Editing Mode,Basculer le mode d'édition de macro,,Redefine keys ToggleMacroEditingMode string
+RedefineKeys_Toggle Macro Editing Mode,Toggle Macro Editing Mode,Basculer le mode d'édition de macro,,Redefine keys ToggleMacroEditingMode string
 RedefineKeys_Increase Brush Size,Increase Brush Size,Augmenter taille du pinceau,,Redefine keys Increase Brush Size string
 RedefineKeys_Increase_Brush Size,Increase Brush Size,Augmenter taille du pinceau,,Redefine keys Increase_Brush Size string
 RedefineKeys_Decrease Brush Size,Decrease Brush Size,Diminuer taille du pinceau,,Redefine keys Decrease Brush Size string
@@ -7898,8 +7889,8 @@ RedefineKeys_TextEditor,Text Editor,Éditeur de texte,,Redefine keys location en
 RedefineKeys_SequenceEditor,Sequence Editor,Editeur de séquence,,Redefine keys location entry
 RedefineKeys_ImageEditor,Image Editor,Éditeur d'image,,Redefine keys location entry
 RedefineKeys_RoomEditor,Room Editor,Éditeur de salle,,Redefine keys location entry
-RedefineKeys_TimelineEditor,Timeline Editor,Éditeur de timeline,,Redefine keys location entry
-RedefineKeys_TilesetEditor,Tileset Editor,Éditeur de jeu de tuiles,,Redefine keys location entry
+RedefineKeys_TimeLineEditor,Timeline Editor,Éditeur de timeline,,Redefine keys location entry
+RedefineKeys_TileSetEditor,Tileset Editor,Éditeur de jeu de tuiles,,Redefine keys location entry
 RedefineKeys_SpriteEditor,Sprite Editor,Éditeur de sprite,,Redefine keys location entry
 RedefineKeys_PathEditor,Path Editor,Éditeur de chemin,,Redefine keys location entry
 RedefineKeys_ObjectEditor,Object Editor,Éditeur d'objet,,Redefine keys location entry
@@ -7910,6 +7901,9 @@ RedefineKeys_ContextMenu,Context Menu,Menu Contexte,,Redefine keys location entr
 RedefineKeys_FontEditor,Font Editor,Éditeur de police,,Redefine keys location entry
 RedefineKeys_SoundEditor,Sound Editor,Éditeur de son,,Redefine keys location entry
 RedefineKeys_SoundMixer,Sound Mixer,Mélangeur de son,,Redefine keys location entry
+RedefineKeys_Debugger,Debugger,Débogueur,,Redefine keys location entry
+RedefineKeys_GMLVisual,GML Visual,GML Visual,,Redefine keys location entry
+RedefineKeys_Workspace,Workspace,Espace de travail,,Redefine keys location entry
 RedefineKeys_Command,Command,Commande,,Redefine keys Command label
 RedefineKeys_Keys,Keys,Touches,,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,Début de la restauration,,Other event subtype
