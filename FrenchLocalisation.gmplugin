@@ -3,12 +3,7 @@
   "bundle_version": "1.0.0",
   "bundle_description": "French IDE localisations",
   "required": false,
-  "endpoints": [
-    {
-      "endpoint_name": "github",
-      "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_French"
-    }
-  ],
+  "feature_flag": "",
   "plugins": [
     {
       "plugin_name": "FrenchLocalisation",
@@ -17,13 +12,21 @@
       "type": "Language",
       "plugin_data": {
         "languages": [
-            { "French": "french.csv" },
-            {"French": "french_dnd.csv" }
+          {
+            "French": "french.csv"
+          },
+          {
+            "French": "french_dnd.csv"
+          }
         ]
       },
       "description": "French IDE localisations",
       "required_assemblies": [],
       "dependencies": []
     }
-  ]
+  ],
+  "endpoints": [],
+  "author": "GameMaker",
+  "signature": "JKhh3PqiJ23PjX8RgUXst0le4ETaMFXjGta7tYk1wuQ1Hf4ftU4i\u002BLb8HU/ZOjhaB\u002BfBbpT3TRvb3fs5rOy3FH1HBz\u002BJjH6bzwHFoQ1q0crlgCMKU/sif7d1YVtV32rlKNQUB1E4vsmZtYQ4eTIG0\u002BlT8HK17GlRD5A9JopACJc=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfaWA3d2WPN5cJCqTJJj72v6p0a4toQY7MzAPpkXkDxdPpeWMbrV4AQs9V\u002BbGVZ4PaGA3Gl0DWzfSmb\u002Btd/oDtzZZ2XehhxyFg\u002BanTPo6MdTasMkXEDBU50f6e7m3ruelF1QIER0\u002BulTNMI8\u002B\u002BURtTcPu/\u002BalhiA5z7BJP/u2MWwIDAQAB"
 }
