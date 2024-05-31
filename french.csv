@@ -7815,7 +7815,6 @@ RedefineKeys_tile_line,Tile Line,Ligne de tuiles,,Redefine keys tile_line string
 RedefineKeys_tile_rect,Tile Rect,Rectangle de tuiles,,Redefine keys tile_rect string
 RedefineKeys_tile_select,Tile Select,Sélection de tuiles,,Redefine keys tile_select string
 RedefineKeys_tile_autotile,Tile Autotile,Carrelage automatique,,Redefine keys tile_autotile string
-RedefineKeys_Rotate,Rotate,Rotation,,Redefine keys Rotate string
 RedefineKeys_autotile_add_full_set,Autotile Add Full Set,Carrelage automatique Ajouter un lot complet,,Redefine keys autotile_add_full_set string
 RedefineKeys_autotile_add_transition_set,Autotile Add Transition Set,Carrelage automatique Ajouter un lot de transition,,Redefine keys autotile_add_transition_set string
 RedefineKeys_autotile_delete_set,Autotile Delete Set,Carrelage automatique Supprimer le lot,,Redefine keys autotile_delete_set string
@@ -7904,8 +7903,8 @@ RedefineKeys_SoundMixer,Sound Mixer,Mélangeur de son,,Redefine keys location en
 RedefineKeys_Debugger,Debugger,Débogueur,,Redefine keys location entry
 RedefineKeys_GMLVisual,GML Visual,GML Visual,,Redefine keys location entry
 RedefineKeys_Workspace,Workspace,Espace de travail,,Redefine keys location entry
-RedefineKeys_Command,Command,Commande,,Redefine keys Command label
-RedefineKeys_Keys,Keys,Touches,,Redefine keys Keys label
+RedefineKeys_Command,Command{0},Commande{0},,Redefine keys Command label
+RedefineKeys_Keys,Keys{0},Touches{0},,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,Début de la restauration,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,Événement de restauration,,Other event subtype
 Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
