@@ -72,7 +72,7 @@ Certificate_Test_Title,Certificate Check,Vérification du certificat,,certificat
 Certificate_PasswordFail,Password is NOT valid for certificate,Ce mot de passe n'est PAS valide pour le certificat,,certificate password fail
 Certificate_PasswordOK,Password is valid for certificate,Mot de passe valide pour le certificat,,certificate password ok
 CertProperties_Heading,Set .pem certificate file and password,Définir un fichier de certificat .pem et un mot de passe,,certificate properties heading
-CertProperties_Heading2,(you can use an existing GameMaker marketplace certificate),(vous pouvez utiliser un certificat existant du Marché GameMaker),,certificate properties heading 2
+CertProperties_Heading2,(you can use an existing GameMaker certificate),(vous pouvez utiliser un certificat existant du Marché GameMaker),,certificate properties heading 2
 CertProperties_CertificateFile,Certificate File:,Fichier de certificat :,,certificate file label
 CertProperties_CertificatePassword,Certificate Password:,Mot de passe du certificat :,,certificate password label
 CertProperties_Check,Check,Vérifier,,certificate properties check certificate button label
@@ -1122,7 +1122,6 @@ PropertyButton_NoGMObject,No Object,Aucun objet,,no object selected caption for 
 PropertyButton_NoGMSprite,No Sprite,Aucun sprite,,Button caption for when no sprite is selected
 PropertyButton_NoGMTileSet,No Tileset,Aucun ensemble de tiles,,no background selected caption for the layer background button
 ResourceNode_AddExisting,Add Existing,Ajouter existant,,Resource Tree node menu - add an already existing resource
-ResourceNode_AddExistingFromLibrary,Add Existing From My Library,Ajouter existant de ma bibliothèque,,Resource Tree node menu - open my library to select resource to import
 ResourceNode_AddGroup,Add Group,Ajouter le groupe,,Add a group
 ResourceNode_AddFromDefault,Add From Default View,Ajouter à partir de la vue par défaut,,submenu heading to allow users to select a resource from the default view to add to their user view.
 ResourceNode_RemoveFromView,Remove From Current View,Supprimer de la vue actuelle,,Resource Tree - remove a resource from the current view
@@ -3950,9 +3949,9 @@ MarketplaceAsset_RemoveTooltip,Delete local content for this asset.,Supprimer le
 MarketplaceTutorial_DragDrop_Message,Open the tutorial instead of adding a datafile?,Ouvrir le didacticiel au lieu d'ajouter un fichier de données ?,,confirm message
 MarketplaceTutorial_DragDrop_Message_IDE,Open the tutorial?,Ouvrez le didacticiel ?,,confirm message
 MarkerplaceTutorial_DragDrop_Title,Tutorial package detected,Didacticiel détecté,,dialog title
-MarketplacePackage_DragDrop_Message,Import marketplace package assets instead of adding a datafile?,Importer les ressources du progiciel de la boutique au lieu d'ajouter un fichier de données ?,,confirm message
-MarketplacePackage_DragDrop_Message_IDE,Import marketplace package?,Importer le progiciel de la boutique ?,,confirm message
-MarketplacePackage_DragDrop_Title,Marketplace Package Detected,Progiciel de la boutique détecté,,dialog title
+LocalPackage_DragDrop_Message,Import marketplace package assets instead of adding a datafile?,Importer les ressources du progiciel de la boutique au lieu d'ajouter un fichier de données ?,,confirm message
+LocalPackage_DragDrop_Message_IDE,Import marketplace package?,Importer le progiciel de la boutique ?,,confirm message
+LocalPackage_DragDrop_Title,Marketplace Package Detected,Progiciel de la boutique détecté,,dialog title
 Dialog_CopyToClipboard,Copy to clipboard,Copier dans le presse-papier,,Copy the dialog message to the clipboard
 Marketplace_MyLibrary_Reviews,{0} reviews,{0} commentaires,,Review count label
 Marketplace_MyLibrary_MadeWith,Created with {0},Créé avec {0},,Created with asset label
@@ -3979,7 +3978,7 @@ room_frozenlayerchoice,Automatic response to layer locked warning,Réponse autom
 room_frozenownerlayerchoice,Automatic response to item owner layer locked warning,Réponse automatique à l'avertissement du calque propriétaire verrouillé,,preference acceptance or show dialog message for editing items within locked layers
 TextureAudioGroups_NoneParent,None,Aucun,,No parent
 SettingsVertexLimit,Automatic response to exceeding physics vertex limit,Réponse automatique au dépassement de la limite vertex en physique,,Settings box2d vertex limit
-VertexLimitWarning,A physics shape cannot have more than 8 points.,Une forme physique ne peut pas avoir plus de 8 points.,,Vertex limit physics warning message
+VertexLimitWarning,A physics shape cannot have more than {0} points.,Une forme physique ne peut pas avoir plus de {0} points.,,Vertex limit physics warning message
 VertexLimitWarning_Title,Warning,Attention,,Above message title
 ObjectEditor_DropParentHere,Drop here to assign parent,Déposer ici pour attribuer un parent,,Drop message for object parent
 ObjectEditor_DropChildHere,Drop here to add child,Déposer ici pour ajouter un enfant,,Drop message for object child list
@@ -4319,7 +4318,6 @@ ggs_allow_game_statistics,Allow anonymous game statistics,Autoriser les statisti
 LicenceExcluded_ggs_allow_game_statistics,Statistics cannot be turned off on 'Creator' platforms,Les statistiques ne peuvent pas être désactivées sur les plateformes « Créateur »,Do not localise 'Creator' it's a product name,Trial stats tooltip on checkbox
 LicenceFree_ggs_allow_game_statistics,Statistics cannot be turned off in GameMaker Trial,Les statistiques ne peuvent pas être désactivées dans la version d'évaluation de GameMaker,,Trial stats tooltip on checkbox
 ggs_statistics_off,Are you sure you want to turn statistics off?\n\nAnonymous statistics allow us to provide developers with info about their target audience and focus development in key areas,Êtes-vous sûr de vouloir désactiver les statistiques ?\n\nLes statistiques anonymes nous permettent de fournir aux développeurs des informations sur leur public cible et de mettre l'accent sur le développement dans des domaines clés,,Message when turning off anonymous statistics
-ggs_statistics_choice,Automatic response to turning off anonymous statistics,Réponse automatique à la désactivation des statistiques anonymes,,Confirm dialog option
 ResourceTree_DataFileAlreadyExists,Included file '{0}' already exists.\nOperation cancelled.,Le fichier inclus '{0}' existe déjà.\nOpération annulée.,,Warn the user that an included file already exists and therefore the operation has been cancelled
 RestoreResourceName_DirectoryFailure,Renaming failed: unable to restore directory '{0}' to its original name. Please see the output panel for more details.,Échec du renommage : impossible de restaurer le nom originel du répertoire '{0}'. Veuillez consulter le panneau de sortie pour plus de détails.,,Error message when attempting to restore a bad resource rename fails
 RestoreResourceName_FilesFailure,Renaming failed: unable to restore files to their correct state. Please see the output panel for more details.,Échec du renommage : impossible de restaurer l’état correct des fichiers. Veuillez consulter le panneau de sortie pour plus de détails.,,Error message when attempting to restore a bad resource rename fails
@@ -6683,7 +6681,7 @@ Inspector_Notes,Notes (Read-only),Notes (lecture seule),,inspector property name
 SourceControlGit_NeedCredentials,The Repository is expecting credentials that have not been setup. Please check your Git installation on how to do this.,Le référentiel attend les informations d'identification qui n'ont pas été configurées. Veuillez vérifier votre installation Git pour savoir comment procéder.,,There are no Credentials setup for Git and the user needs to do this
 GMLVisual_Gadget_ArgumentInput,Argument,Argument,,GML Visualâ„¢ gadget for argument input and optional arguments
 ImportLoad_FileNotFound,"Unable to find file {0}.\nIf the file is inside an archive, please extract it first.","Impossible de trouver le fichier {0}.\nSi le fichier se trouve dans une archive, veuillez d'abord l'extraire.",,project load or import file not found error
-runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,Voulez-vous changer votre moteur d'exécution actuel pour la version correspondante de l'IDE {0} ?,,Change current runtime to the version matching the IDE
+runtime_onstartup_change,Do you want to change your current runtime to the latest installed version: {0}?,Voulez-vous changer votre moteur d'exécution actuel pour la version correspondante de l'IDE {0} ?,,Change current runtime to the version matching the IDE
 GoTo_Pref_Functions,Search in user-defined Functions,Recherchez dans les fonctions définies par l'utilisateur,,Search user functions pref
 GMStdOptional,Optional,Facultatif,, GML Visual optional label
 GMStdDefaultValue,Value,Valeur,, GML Visual default value label

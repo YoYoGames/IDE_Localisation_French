@@ -1,6 +1,6 @@
 {
   "name": "@localisation_plugins/french",
-  "version": "1.0.0",
+  "version": "{$MAJOR}.{$MINOR}.{$BUILD}",
   "description": "French IDE localisations",
   "main": "index.js",
   "scripts": {
